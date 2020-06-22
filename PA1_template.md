@@ -37,7 +37,7 @@ ggplot(Histdf, aes(x=date)) +
     labs(title="Total number of steps taken each day",x="Date", y = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/plotHist-1.png)<!-- -->
+![](figure/plotHist-1.png)<!-- -->
 
 ## What is mean total number of steps taken per day?
 
@@ -65,7 +65,7 @@ ggplot(data=Avgsteps, aes(x=interval, y=AverageStep)) +
     labs(title="Average number of steps taken across all days",x="Time Interval (5 mins)", y = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/plot_time_series-1.png)<!-- -->
+![](figure/plot_time_series-1.png)<!-- -->
 
 
 
@@ -121,7 +121,7 @@ ggplot(newHistdf, aes(x=date)) +
     labs(title="Total number of steps taken each day with new data",x="Date", y = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/newdatahistgram-1.png)<!-- -->
+![](figure/newdatahistgram-1.png)<!-- -->
 
 #### Mean and median of total number of steps taken per day after filling in all missing data
 
@@ -157,4 +157,4 @@ ggplot(data=weekdaysAvgsteps, aes(x=interval, y=AverageStep)) +
     labs(title="Average number of steps taken across all days",x="Time Interval (5 mins)", y = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/datawithweekday-1.png)<!-- -->
+![](figure/datawithweekday-1.png)<!-- -->
